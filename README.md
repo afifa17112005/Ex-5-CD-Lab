@@ -20,7 +20,7 @@ To write a YACC program to recognize the grammar anb where n>=10.
 %}
 
 %%
-a    { return A; }  // Recognize 'a' as token A
+a    { return A; }  // Recognize 'a' as token A 
 b    { return B; }  // Recognize 'b' as token B
 .    { return 0; }  // End of input
 %%
